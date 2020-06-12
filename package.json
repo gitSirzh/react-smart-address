@@ -1,0 +1,27 @@
+{
+  "name": "react-smart-address",
+  "title": "React Smart Address",
+  "version": "0.0.1",
+  "description": "自动识别地址",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitSirzh/react-smart-address.git",
+    "baseUrl": "https://github.com/gitSirzh/react-smart-address"
+  },
+  "keywords": [
+    "react",
+    "address",
+    "smart"
+  ],
+  "author": {
+    "name": "jszh",
+    "email": "969883825@qq.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md"
+}

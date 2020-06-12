@@ -2,12 +2,6 @@
 #
 .DS_Store
 
-# node.js
-#
-node_modules/
-npm-debug.log
-yarn-error.log
-
 # Xcode
 #
 build/
@@ -26,17 +20,17 @@ DerivedData
 *.hmap
 *.ipa
 *.xcuserstate
-project.xcworkspace
 
-# Android/IntelliJ
+# node.js
 #
-build/
-.idea
-.gradle
-local.properties
-*.iml
+node_modules/
+npm-debug.log
 
-# BUCK
-buck-out/
-\.buckd/
-*.keystore
+# Don't publish example apps
+example/
+# .idea
+
+.idea/
+src/file
+.gradle/
+pic
