@@ -22,7 +22,7 @@ yarn add react-smart-address
 ```javascript
 import SmartAddress from 'react-smart-address';
 
-console.log('SmartAddress: ', SmartAddress.smart('河南省商丘市夏邑县李集镇郭庄乡孟朱庄村小张庄66号15518766666 小伙子'));
+console.log('SmartAddress: ' + SmartAddress.smart('河南省商丘市夏邑县李集镇郭庄乡孟朱庄村小张庄66号15518766666 小伙子'));
 
 // SmartAddress: {
 //     'address': '郭庄乡孟朱庄村小张庄66号',
