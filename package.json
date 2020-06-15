@@ -1,7 +1,7 @@
 {
   "name": "react-smart-address",
   "title": "React Smart Address",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "自动识别地址",
   "main": "index.js",
   "scripts": {
