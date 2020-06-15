@@ -20,7 +20,7 @@ yarn add react-smart-address
 ### 支持以下格式
 
 #### 注意：地址、姓名、电话 用空格或者特殊字符分开
-特殊字符(可自行添加)：
+特殊字符(可自行添加：./node_modules/react-smart-address/src/address_parse.js line:389)：
 ```
 ~!@#$^&*()=|{}':;',\\[\\].<>/?~！@#￥……&*（）——|{}【】‘；：”“’。，、？-
 ```
