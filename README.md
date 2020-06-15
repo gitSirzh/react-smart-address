@@ -41,7 +41,7 @@ yarn add react-smart-address
 ```javascript
 import SmartAddress from 'react-smart-address';
 
-let address = SmartAddress.smart('河北省唐山市古冶区赵各庄街道胜利路66号10楼1002室063100 15518720000 小伙子 211381198512096810');
+let address = SmartAddress.smart('河北省唐山市古冶区赵各庄街道胜利路66号10楼1002室 15518720000 小伙子 211381198512096810');
 console.log('SmartAddress: ' + address);
 
 // SmartAddress: {
