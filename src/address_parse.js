@@ -147,7 +147,6 @@ function smatrAddress(event) {
     let matchAddress = '';
     //省匹配 比如输入北京市朝阳区，会用北  北京  北京市 北京市朝 以此类推在addressList里的province中做匹配，会得到北京市  河北省 天津市等等；
     let matchProvince = []; //粗略匹配上的省份
-    // for (let begIndex = 0; begIndex < address.length; begIndex++) {
     matchAddress = '';
     for (let endIndex = 0; endIndex < address.length; endIndex++) {
         matchAddress = address.slice(0, endIndex + 2);
