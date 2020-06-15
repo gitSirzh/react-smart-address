@@ -5,37 +5,38 @@
 
 #### 感觉不错的话，[请点个🌟](https://github.com/gitSirzh/react-smart-address)
 
-## Getting started
+## 安装
 
-Using npm:
+npm:
 
 ```shell
 npm install react-smart-address --save
 ```
-or using yarn:
+yarn:
 
 ```shell
 yarn add react-smart-address
 ```
 
-## Usage
+## 使用
 ```javascript
 import SmartAddress from 'react-smart-address';
 
-console.log('SmartAddress: ' + SmartAddress.smart('河南省商丘市夏邑县李集镇郭庄乡孟朱庄村小张庄66号15518766666 小伙子'));
+let address = SmartAddress.smart('河北省唐山市古冶区赵各庄街道胜利路66号10楼1002室15518720000 小伙子');
+console.log('SmartAddress: ' + address);
 
 // SmartAddress: {
-//     'address': '郭庄乡孟朱庄村小张庄66号',
-//     'city': '商丘市',
-//     'cityCode': '4114',
-//     'county': '夏邑县',
-//     'countyCode': '411426',
-//     'name': '小伙子',
-//     'phone': '15518766666',
-//     'province': '河南省',
-//     'provinceCode': '41',
-//     'street': '李集镇',
-//     'streetCode': '411426104',
+// "address": "胜利路66号10楼1002室",
+// "city": "唐山市",
+// "cityCode": "1302",
+// "county": "古冶区",
+// "countyCode": "130204",
+// "name": "小伙子",
+// "phone": "15518720000",
+// "province": "河北省",
+// "provinceCode": "13",
+// "street": "赵各庄街道",
+// "streetCode": "130204004"
 // }
 
 ```
