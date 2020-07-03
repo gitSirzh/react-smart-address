@@ -6,7 +6,7 @@
 'use strict';
 
 import {pcassCode} from '../lib/pcasCode';
-import {zipCode} from '../lib/zipCode';
+import zipCode from '../lib/zipCode';
 
 let addressList = []; //地址列表
 let zipCodeList = []; //邮编列表
