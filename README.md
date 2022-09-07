@@ -1,6 +1,8 @@
 # react-smart-address
 [![npm version](https://badge.fury.io/js/react-smart-address.svg)](https://badge.fury.io/js/react-smart-address)
 
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=gitSirzh)](https://github.com/gitSirzh/react-smart-address)
+
 自动识别收货地址
 
 #### 感觉不错的话，[请点个🌟](https://github.com/gitSirzh/react-smart-address)
